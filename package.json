@@ -1,29 +1,22 @@
 {
-  "name": "helpis",
+  "name": "multipass",
   "version": "1.0.0",
-  "description": "school project",
+  "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node -r dotenv/config ./src/index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anoera/workshopEpsi2020.git"
+    "url": "git+https://github.com/anoera/multipass.git"
   },
-  "author": "arnaud gonin",
-  "license": "UNLICENSED",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anoera/workshopEpsi2020/issues"
+    "url": "https://github.com/anoera/multipass/issues"
   },
-  "homepage": "https://github.com/anoera/workshopEpsi2020#readme",
-  "devDependencies": {
-    "eslint": "^7.13.0",
-    "eslint-config-prettier": "^6.15.0",
-    "prettier": "2.1.2"
-  },
-  "dependencies": {
-    "axios": "^0.21.0",
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/anoera/multipass#readme"
 }
